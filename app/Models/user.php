@@ -9,11 +9,5 @@ class user extends Model
 {
     use HasFactory;
 	
-	protected $fillable = [
-        'name',
-        'dob',
-        'migrane_frequency',
-        'daily_frequency',
-    ];
-
+	
 }

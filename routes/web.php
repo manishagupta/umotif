@@ -16,4 +16,3 @@ use App\Http\Controllers\UserController;
 */
 Route::get('/', [UserController::class, 'index']);
 Route::post('/user/store', [UserController::class, 'store']);
-Route::get('result', [UserController::class, 'result']); 
